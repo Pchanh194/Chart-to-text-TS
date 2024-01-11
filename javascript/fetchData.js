@@ -26,8 +26,8 @@ function isDateValid(year, month, day) {
 async function fetchAndSaveData() {
     for (let month = 1; month <= 12; month++) {
         for (let day = 1; day <= 31; day++) {
-            if (!isDateValid(2023, month, day)) continue;
-            let dateString = `${2023}-${month.toString().padStart(2, '0')}-${day.toString().padStart(2, '0')}`;
+            if (!isDateValid(2022, month, day)) continue;
+            let dateString = `${2022}-${month.toString().padStart(2, '0')}-${day.toString().padStart(2, '0')}`;
             try {
                 const data = await fetchData(dateString, dateString);
                 fs.writeFileSync(`data/data_${dateString}.json`, JSON.stringify(data, null, 2));

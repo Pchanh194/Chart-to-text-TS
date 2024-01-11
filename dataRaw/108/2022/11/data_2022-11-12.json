@@ -1,0 +1,48 @@
+{
+  "schedule": {
+    "Monday": [
+      "08:00",
+      "18:00"
+    ],
+    "Tuesday": [
+      "08:00",
+      "18:00"
+    ],
+    "Wednesday": [
+      "08:00",
+      "18:00"
+    ],
+    "Thursday": [
+      "08:00",
+      "18:00"
+    ],
+    "Friday": [
+      "08:00",
+      "18:00"
+    ],
+    "Saturday": [
+      "08:00",
+      "18:00"
+    ],
+    "Sunday": [
+      "08:00",
+      "18:00"
+    ],
+    "Public Holiday": [
+      "08:00",
+      "12:00"
+    ]
+  },
+  "oa_temp": {},
+  "room_temp": {},
+  "slab_temp": {},
+  "dew_temp": {},
+  "fan_stat": {},
+  "room_sp_value": "22",
+  "room_sp_range": "2",
+  "slab_sp_value": "21",
+  "slab_sp_range": "1",
+  "thermal_comfort_data": {},
+  "issues_count": {},
+  "potential_savings": {}
+}
