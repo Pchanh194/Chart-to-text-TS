@@ -20,37 +20,37 @@ The goal of this project is to develop a robust language model that can:
 **Code Structure:**
 
 ```
-├── bart-t5     # Folder containing code for the BART-T5 model
+├── bart-t5     
 │   └── ...
-├── datasets     # Folder containing datasets used in the project
-│   ├── 10       # Data for October
-│   │   ├── data_2023-10-01.txt   # Data for October 1st, 2023
-│   │   ├── data_2023-10-02.txt   # Data for October 2nd, 2023
+├── datasets   
+│   ├── 10       
+│   │   ├── data_2023-10-01.txt   
+│   │   ├── data_2023-10-02.txt   
 │   │   └── ...
-│   ├── merged   # Merged data from multiple sources
-│   │   ├── merged_2023-10-01.txt # Merged data for October 1st, 2023
-│   │   ├── merged_2023-10-02.txt # Merged data for October 2nd, 2023
+│   ├── merged   
+│   │   ├── merged_2023-10-01.txt 
+│   │   ├── merged_2023-10-02.txt 
 │   │   └── ...
-│   └── train    # Training and evaluation data
-│       ├── train.csv  # Training data
-│       ├── valid.csv  # Validation data
+│   └── train   
+│       ├── train.csv  
+│       ├── valid.csv  
 │       └── ...
-├── notebook    # Folder containing Jupyter notebooks
-│   ├── converter # Folder containing code for data conversion
-│   │   ├── convert_json_to_parquet.ipynb  # Convert JSON to Parquet
-│   │   ├── convert_json_to_xlsx.ipynb   # Convert JSON to Excel
-│   │   └── convert_xlsx_to_text.ipynb    # Convert Excel to text
-│   └── main     # Folder containing main project code
-│       ├── Data_to_text_STSM.ipynb  # Code for training and inference
-│       └── HVAC_statistic_preparation_main.ipynb # Code for data preparation
-├── research  # Folder containing research related to the project
-│   ├── notebook # Folder containing research notebooks
-│   │   ├── abnomalies_analysis_in_TS.ipynb # Anomaly analysis in time series
-│   │   ├── anomalies_ARIMA.ipynb # Anomaly analysis using ARIMA
+├── notebook    
+│   ├── converter 
+│   │   ├── convert_json_to_parquet.ipynb  
+│   │   ├── convert_json_to_xlsx.ipynb   
+│   │   └── convert_xlsx_to_text.ipynb    
+│   └── main     
+│       ├── Data_to_text_STSM.ipynb  
+│       └── HVAC_statistic_preparation_main.ipynb 
+├── research 
+│   ├── notebook 
+│   │   ├── abnomalies_analysis_in_TS.ipynb 
+│   │   ├── anomalies_ARIMA.ipynb 
 │   │   └── ...
-│   └── report   # Folder containing reports
-│       └── HVAC Automatic Data Analytics.pdf # Automatic report on HVAC data analytics
-└── STSM_model # Folder containing code for the STSM (Seasonal-Trend decomposition using Loess) model
+│   └── report  
+│       └── HVAC Automatic Data Analytics.pdf 
+└── STSM_model 
     └── ... 
 
 ```
@@ -68,7 +68,7 @@ The goal of this project is to develop a robust language model that can:
 * **research/ ...:** This folder contains research conducted within the project, including notebooks for analyzing anomalies in time series.
     * **notebook/ ...:** This folder contains research notebooks.
     * **report/ ...:** This folder contains reports summarizing research findings.
-* **STSM_model/ ...:** This folder contains code for the STSM based on [text](https://github.com/hoangthangta/STSM).
+* **STSM_model/ ...:** This folder contains code for the STSM based on [hoangthangta's works](https://github.com/hoangthangta/STSM).
 
 **Running the Code:**
 * **notebook/main/HVAC_statistic_preparation_main.ipynb:** Run this code to prepare the data for training and evaluation.
